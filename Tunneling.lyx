@@ -1,0 +1,256 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\bar under
+Tunneling
+\end_layout
+
+\begin_layout Standard
+Assuming a particle traveling to the right (positive direction) and encounters
+ a finite potential barrier, we describe the wave function for each segment,
+ and solve for the the appropriate boundary conditions:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{1}\left(x\right)=A_{1+}e^{ik_{1}x}+A_{1-}e^{-ik_{1}x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{2}\left(x\right)=A_{2+}e^{ik_{2}x}+A_{2-}e^{-ik_{2}x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{3}\left(x\right)=A_{3+}e^{ik_{1}x}$
+\end_inset
+
+ (since we only assumed a particle arriving from the left, the energy at
+ (3) is equal to the energy of (1) therefore 
+\begin_inset Formula $k_{1}=k_{3}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+We demand continuity of the 
+\begin_inset Formula $\psi,\psi'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+The solution for 
+\begin_inset Formula $E>V_{0}$
+\end_inset
+
+ :
+\bar default
+ 
+\begin_inset Formula $T=\frac{\left|A_{3+}\right|^{2}}{\left|A_{1+}\right|^{2}}=\frac{4k_{1}^{2}k_{2}^{2}}{4k_{1}^{2}k_{2}^{2}+\left(k_{1}^{2}-k_{2}^{2}\right)sin^{2}\left(k_{2}L\right)}=\frac{4E\left(E-V_{0}\right)}{4E\left(E-V_{0}\right)+V_{0}^{2}sin^{2}\left(\sqrt{\frac{2mL^{2}}{\hbar^{2}}\left(E-V_{0}\right)}\right)}$
+\end_inset
+
+ (where 
+\begin_inset Formula $L$
+\end_inset
+
+ is the barriers width)
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Solving for 
+\begin_inset Formula $0<E<V_{0}$
+\end_inset
+
+ 
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+Within the barrier 
+\begin_inset Formula $E=\frac{\hbar^{2}k_{2}^{2}}{2m}+V_{0}\Rightarrow k_{2}=\frac{1}{\hbar}i\sqrt{2m\left(V_{0}-E\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore when using this result to solve the wave function 
+\bar under
+we obtain a decreasing exponent within the barrier.
+
+\bar default
+ 
+\end_layout
+
+\begin_layout Standard
+We find 
+\begin_inset Formula $T$
+\end_inset
+
+ by replacing 
+\begin_inset Formula $ik_{2}\iff\alpha\Rightarrow T=\frac{4k_{1}^{2}\alpha^{2}}{4k_{1}^{2}\alpha^{2}+\left(k_{1}^{2}-\alpha^{2}\right)sinh^{2}\left(\alpha L\right)}=\frac{4E\left(V_{0}-E\right)}{4E\left(V_{0}-E\right)+V_{0}^{2}sinh^{2}\left(\sqrt{\frac{2mL^{2}}{\hbar^{2}}\left(V_{0}-E\right)}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The transmission coefficient of a quantum particle through a potential barrier
+ depends exponentially upon the thickness of the barrier and upon the square
+ root of the potential of the barrier.
+ 
+\end_layout
+
+\begin_layout Enumerate
+If a small potential is applied to two metals:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Both in 'normal' state: current through the insulating film varies linearly
+ with voltage.
+ This is held as long as the density of electron states is constant over
+ the applied voltage range.
+ 
+\bar under
+Temperature's effect is very small.
+\end_layout
+
+\begin_layout Enumerate
+One metal is in superconducting state: Non linear characteristics, due the
+ superconductor's electron states density changes rapidly.
+ No electrons can flow into the energy region of the gap in superconductors.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+At 
+\begin_inset Formula $T=0$
+\end_inset
+
+ no current can flow until the applied voltage corresponds to half the energy
+ gap 
+\begin_inset Formula $\left(\Delta\right)$
+\end_inset
+
+, this is because all electrons are paired.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The current will increase rapidly with voltage at first and then asymptotically
+ approach the normal state.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The two sides of the barrier are different, a current is strongly temperature
+ dependent.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $-\frac{e\cdot exp\left(\frac{eV-E_{F}+E}{K_{B}T}\right)}{K_{B}T\left(exp\left(\frac{eV-E_{F}+E}{K_{B}T}\right)+1\right)^{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

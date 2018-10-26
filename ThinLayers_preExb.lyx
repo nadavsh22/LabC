@@ -1,0 +1,196 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+We wish to detect quantom mechanical tunneling of unpaired electrons through
+ a thin insulating layer (
+\begin_inset Formula $\sim2nm$
+\end_inset
+
+ thick), which seperates two conducting/superconducting films.
+ 
+\end_layout
+
+\begin_layout Standard
+The exeriment will involve the measurement of the tunneling current from
+ one film to the other as the potential between them is increased.
+ 
+\end_layout
+
+\begin_layout Standard
+-in any tunneling process the total energy must be conserved
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 14.16
+\end_layout
+
+\begin_layout Itemize
+(a) the energy states of the electron-pairs are at the lower edge of the
+ energy gap and the excited single states are shown as a band starting at
+ an energy of 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ above the pair states.
+ 
+\end_layout
+
+\begin_layout Itemize
+At any non-zero temperature there will be a few occupied states in the single
+ electron band.
+\end_layout
+
+\begin_layout Itemize
+We shall make the potential of film 1 positive with respect to film 2, so
+ that all its energy states move to the left
+\end_layout
+
+\begin_layout Itemize
+(b) only a small current will flow from 2 to because the paired electrons
+ on the left of 2 face the energy gap of 1 and only a few single electrons
+ in the right band of 2 can tunnel to vacant states in 1.
+ 
+\end_layout
+
+\begin_layout Itemize
+(c) where the relative shift in energy is 
+\begin_inset Formula $\Delta$
+\end_inset
+
+the pair energy on the left of 2 is level with the edge of the right band
+ of 1.
+\end_layout
+
+\begin_layout Itemize
+it might be thought that electron pairs may now tunnel from 2 to 1.
+ Since these electrons must tunnel into single electron states, each pair
+ must first be split up at a cost of 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ per electron.
+\end_layout
+
+\begin_layout Itemize
+Tunneling will only occur at (d), where the relative energy shift is 
+\begin_inset Formula $2\Delta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This enables the energy of a pair to be conserved because the single which
+ has not tunneled gained 
+\begin_inset Formula $\Delta,$
+\end_inset
+
+ the electron that did loses 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ when dropped into the lowest occupied state of 1.
+ 
+\end_layout
+
+\begin_layout Itemize
+The tunneling current rises rapidally (e) , at this point the potential
+ is 
+\begin_inset Formula $V_{B}$
+\end_inset
+
+, therefore 
+\begin_inset Formula $eV_{B}$
+\end_inset
+
+ is equivalent to the energy gap 
+\begin_inset Formula $2\Delta$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
